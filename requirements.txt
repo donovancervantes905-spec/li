@@ -1,0 +1,28 @@
+# Requisitos del Proyecto Tkinter Showcase
+
+Este proyecto utiliza **únicamente la biblioteca estándar de Python**, por lo que **no requiere instalar paquetes externos mediante pip** para funcionar.
+
+## Requisitos
+- **Python**: Versión 3.8 o superior (recomendado 3.10+)
+- **Tkinter**: Viene preinstalado de forma predeterminada con los instaladores oficiales de Python en Windows y macOS.
+
+### Nota para usuarios de Linux (Debian / Ubuntu / Mint / Fedora)
+En algunas distribuciones Linux, Tkinter se empaqueta por separado del núcleo de Python. Si recibes un error como `ModuleNotFoundError: No module named '_tkinter'`, instálalo con tu gestor de paquetes:
+
+```bash
+# Debian / Ubuntu / Linux Mint
+sudo apt-get update
+sudo apt-get install python3-tk
+
+# Fedora
+sudo dnf install python3-tkinter
+
+# Arch Linux
+sudo pacman -S tk
+```
+
+## Dependencias Opcionales (Futuras mejoras)
+Si deseas extender el proyecto con soporte para imágenes complejas (JPEG/WebP) o gráficos avanzados, puedes instalar:
+```text
+# Pillow>=10.0.0
+```
